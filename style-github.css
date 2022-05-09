@@ -1,0 +1,105 @@
+body{
+	background-color: #F7F7F7 /*Cor de fundo da pagina web*/
+}
+
+header{
+	width: 100%;
+	vertical-align: center;
+	border: 8px solid #383838;
+	border-radius: 10px;
+}
+
+#banniere{
+	background-image: url("teletele.png");
+	height: 210px;
+	width: 210px;
+	margin: auto;
+}	
+
+h1{
+	color: #062C30;
+	font-size: 65px;
+	text-align: center;
+	border: solid;
+}
+
+h2{
+	color: #062C30;
+	font-size: 70px;
+	text-align: center;
+	border: solid;
+}
+
+p{
+	color: #811453;
+	font-size: 10px;
+	text-align: justify;
+}
+h3{
+	color: #062C30;
+	font-size: 55px;
+	text-align: center;
+	border: solid;
+}
+
+img{
+	width: 25%;
+	height: 15%;
+}
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center;
+}
+
+#nav li {
+	display: inline;
+	list-style: none;
+}
+
+#nav a {
+	display: inline-block;
+	margin: 0 40 3 40px;
+	background: #FEE2C5; /* couleur du fond */
+	width: 120px;
+	text-decoration: #E2C275; /*pas d'heritage avec effet souligné */
+	color: #180A0A; /* couleur du texte */
+	height: 30px; /* hauteur */
+	line-height: 3 50 3 50px; /* interligne */
+	padding: 0 50px; /* marges interieur */
+	font-family: fantasy; /* police d'ecriture */
+	font-size: 20px; /* taille du texte */
+}
+
+#nav a:hover{background:#E2C275;}
+
+table{
+	border: 3px solid green;
+}
+
+th{
+	background-color: #066163;
+	height: 45px;
+	border: ridge 1,5px;
+	color: #F6F54D;
+}
+
+caption{
+	font-size: 30px;
+	color: #ccc;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+#interv{
+	Background-color: yellow;
+}
+
+#tel{
+	background-color: green;
+}
+
+td{
+	border: 2px dotted black;
+	background: white;
+}
